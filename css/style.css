@@ -1,5 +1,5 @@
 
-@font-face {
+  @font-face {
     font-style: normal;
     font-weight: 400;
     font-family: "PT Sans Caption";
@@ -11,7 +11,7 @@
   }
 
 :root{
-    background-image: url(img/main-background.jpg);
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -39,7 +39,7 @@ h1{
   top:0px;
   text-align: center;
   font-size: 50px;
-  color: white;
+  color:  #39352a;
 }
 span{
   color:grey;
@@ -84,12 +84,28 @@ ul li {
 form{
   padding: 10px;
   width: fit-content;
-  background: white;
+  background: #39352a;
   border-radius: 20px;
   margin: 10px auto;
   
 }
 
+.reset{
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    
+    
+
+}
+
+.submit{
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
 
 
 
