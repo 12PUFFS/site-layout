@@ -1,0 +1,102 @@
+
+@font-face {
+    font-style: normal;
+    font-weight: 400;
+    font-family: "PT Sans Caption";
+  
+    font-display: swap;
+    src:
+      url("../fonts/pt-sans-caption-regular.woff2") format("woff2"),
+      url("../fonts/pt-sans-caption-regular.woff") format("woff");
+  }
+
+:root{
+    background-image: url(img/main-background.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+body {
+    width: 100%;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "PT Sans Caption", "Arial", sans-serif;
+    color: var(--color-text-black);
+  }
+
+
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+h1{
+  top:0px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+span{
+  color:grey;
+}
+
+h2{
+  padding-left: 5px;
+}
+
+p  {
+  color: grey;
+}
+
+*{
+  list-style-type: none;
+  border: none;
+}
+
+ ul > li > input[type="gender"]{
+  display: none;
+  position: absolute;
+  
+
+}
+
+ ul > li > label {
+  display:inline-block;
+	border: 1px solid #999;
+  
+  
+}
+
+ul > li > label:active{
+  background: orange;
+
+}
+ 
+ul li {
+  display: inline;
+}
+
+form{
+  padding: 10px;
+  width: fit-content;
+  background: white;
+  border-radius: 20px;
+  margin: 10px auto;
+  
+}
+
+
+
+
+
+
+
+    
+
+
+
